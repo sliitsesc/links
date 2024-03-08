@@ -1,0 +1,42 @@
+export const AgendaData = [
+  {
+    title: "Opening Ceremony",
+    description: "The opening ceremony of the AGM 2024",
+    time: "3:30 PM",
+    imageURL: "/logo/sesc-logo.svg",
+    name: "John Doe",
+    position: "President",
+  },
+  {
+    title: "Annual Report",
+    description: "The annual report of the SESC for the year 2023/24",
+    time: "3:45 PM",
+    imageURL: "/assets/agm/agm-2024.jpg",
+    name: "Jane Doe",
+    position: "Secretary",
+  },
+  {
+    title: "Financial Report",
+    description: "The financial report of the SESC for the year 2023/24",
+    time: "4:00 PM",
+    imageURL: "/assets/agm/agm-2024.jpg",
+    name: "John Doe",
+    position: "Treasurer",
+  },
+  {
+    title: "Election of Office Bearers",
+    description: "Election of office bearers for the year 2024/25",
+    time: "4:15 PM",
+    imageURL: "/assets/agm/agm-2024.jpg",
+    name: "John Doe",
+    position: "President",
+  },
+  {
+    title: "Vote of Thanks",
+    description: "Vote of thanks by the newly elected president",
+    time: "4:30 PM",
+    imageURL: "/assets/agm/agm-2024.jpg",
+    name: "John Doe",
+    position: "President",
+  },
+];
