@@ -18,15 +18,15 @@ export default function EventCard({
   position,
 }: Props) {
   return (
-    <div className="bg-white rounded-xl w-full flex flex-row gap-x-2 p-4">
-      <div className="w-1/3 max-w-[100px] select-none">{time}</div>
-      <div className=" flex h-full flex-col justify-between">
+    <div className="bg-white rounded-xl w-full flex flex-row p-4">
+      <div className="w-[100px] flex-shrink-0 mr-4">{time}</div>
+      <div className="flex-1 flex flex-col">
         <div className="mb-4">
           <h2 className="text-xl font-medium">{title}</h2>
           <p className="text-sm">{description}</p>
         </div>
         {imageURL && (
-          <div className="inline-flex items-center">
+          <div className="flex items-center">
             <Image
               src={imageURL}
               width={50}
@@ -34,7 +34,7 @@ export default function EventCard({
               alt="profile"
               className="rounded-full mr-4 object-cover w-[50px] h-[50px] border-[2px] border-orange-400"
             />
-            <div className="flex flex-col items-start justify-start">
+            <div className="flex flex-col">
               <p className="font-bold">{name}</p>
               <p>{position}</p>
             </div>
