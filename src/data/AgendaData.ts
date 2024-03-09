@@ -14,7 +14,7 @@ export const AgendaData = [
     position: "President, SESC 2024/25",
   },
   {
-    title: "Speech by Dean Nuwan Kodagoda",
+    title: "Speech by Dr. Nuwan Kodagoda",
     time: "3:55 PM",
     imageURL: "/faces/nuwan.jpg",
     name: "Nuwan Kodagoda",
