@@ -2,11 +2,11 @@ import Image from "next/image";
 
 interface Props {
   title: string;
-  description?: string;
   time: string;
-  imageURL: string;
-  name: string;
-  position: string;
+  description?: string;
+  imageURL?: string;
+  name?: string;
+  position?: string;
 }
 
 export default function EventCard({

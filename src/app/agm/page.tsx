@@ -1,5 +1,5 @@
 import EventCard from "@/components/EventCard";
-import { Calendar, CalendarFold, MapPin, PinIcon } from "lucide-react";
+import { CalendarFold, MapPin, PinIcon } from "lucide-react";
 import { AgendaData } from "@/data/AgendaData";
 import Image from "next/image";
 import { Bebas_Neue } from "next/font/google";
@@ -52,7 +52,7 @@ export default function AGMPage() {
             <EventCard
               key={event.key}
               title={event.title}
-              description={event?.description}
+              //   description={event?.title}
               time={event.time}
               imageURL={event.imageURL}
               name={event.name}
