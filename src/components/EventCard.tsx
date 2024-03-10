@@ -27,13 +27,15 @@ export default function EventCard({
         </div>
         {imageURL && (
           <div className="flex items-center">
-            <Image
-              src={imageURL}
-              width={50}
-              height={50}
-              alt="profile"
-              className="rounded-full mr-4 object-cover w-[50px] h-[50px] border-[2px] border-orange-400"
-            />
+            <div>
+              <Image
+                src={imageURL}
+                width={50}
+                height={50}
+                alt="profile"
+                className="rounded-full mr-4 object-cover min-w-[50px] w-[50px] h-[50px] border-[2px] border-orange-400"
+              />
+            </div>
             <div className="flex flex-col">
               <p className="font-bold">{name}</p>
               <p>{position}</p>
