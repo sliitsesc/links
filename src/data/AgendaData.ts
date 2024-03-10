@@ -4,7 +4,7 @@ export const AgendaData = [
     time: "3:30 PM",
     imageURL: "/faces/msthilini.jpeg",
     name: "Thilini Jayalath",
-    position: "Assistant Lecturer, SLIIT",
+    position: "Lecturer, SLIIT",
   },
   {
     title: "Year Resolution by Previous Year's President",
