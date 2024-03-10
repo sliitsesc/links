@@ -42,30 +42,30 @@ export const AgendaData = [
     position: "Senior Lecturer, SLIIT",
   },
   {
-    title: "Speech by Mr. Samitha Vidhanaarachchi",
+    title: "Awarding services letters for past members",
     time: "4:40 PM",
+  },
+  {
+    title: "Speech by Mr. Samitha Vidhanaarachchi",
+    time: "4:50 PM",
     imageURL: "/faces/samitha.png",
     name: "Samitha Vidhanaarachchi",
     position: "Lecturer, SLIIT",
   },
   {
     title: "Speech by President of FCSC",
-    time: "4:50 PM",
+    time: "5:00 PM",
     imageURL: "/faces/rivi.png",
     name: "Rivi Abhishek",
     position: "President, FCSC",
   },
   {
-    title: "Awarding services letters for past members",
-    time: "5:00 PM",
-  },
-  {
     title: "Awarding appointment letters for new members",
-    time: "5:15 PM",
+    time: "5:10 PM",
   },
   {
     title: "Vote of Thanks",
-    time: "5:30 PM",
+    time: "5:20 PM",
     imageURL: "/faces/gokul.png",
     name: "Gokul Abishek",
     position: "Secretary, SESC 2024/25",
