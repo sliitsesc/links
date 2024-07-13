@@ -1,17 +1,17 @@
 export const AgendaData = [
   {
     title: "Welcome speech by Ms. Thilini Jayalath",
-    time: "3:30 PM",
+    time: "1:30 PM",
     imageURL: "/faces/msthilini.jpeg",
     name: "Ms. Thilini Jayalath",
     position: "Lecturer, SLIIT",
   },
   {
-    title: "Year Resolution by Previous Year's President",
-    time: "3:40 PM",
-    imageURL: "/faces/yasas.png",
-    name: "Yasas Ramod",
-    position: "President, SESC 2023/24",
+    title: "Speech by Dr. Kalpani Manathunga",
+    time: "4:00 PM",
+    imageURL: "/faces/kalpani.jpg",
+    name: "Dr. Kalpani Manathunga",
+    position: "HOD, SE Department SLIIT",
   },
   {
     title: "Year Plan for 2024/25 by New President",
@@ -28,7 +28,7 @@ export const AgendaData = [
     position: "HOD, SE Department SLIIT",
   },
   {
-    title: "Awarding services letters for past members",
+    title: "SESC Announcements",
     time: "4:10 PM",
   },
   {
@@ -46,8 +46,11 @@ export const AgendaData = [
     position: "President, FCSC",
   },
   {
-    title: "Awarding appointment letters for new members",
-    time: "4:40 PM",
+    title: "Speech by President of FCSC",
+    time: "4:30 PM",
+    imageURL: "/faces/rivi.png",
+    name: "Rivi Abhishek",
+    position: "President, FCSC",
   },
   {
     title: "Vote of Thanks",

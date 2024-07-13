@@ -16,7 +16,7 @@ export default function AGMPage() {
         <div className={`${bebasNeue.className} text-center mt-10`}>
           <h1 className="text-[46px] leading-0 text-white">Agenda</h1>
           <p className="text-white leading-0 text-[25px] uppercase">
-            Annual General Meeting
+            SE Orientation
           </p>
           <p className="text-white leading-0 text-[25px]">SESC - 2024/25</p>
         </div>
@@ -26,9 +26,9 @@ export default function AGMPage() {
           <div className="inline-flex text-white items-center">
             <CalendarFold size={36} />
             <span className="ml-2 uppercase text-[19px] leading-none">
-              11th march 2024
+              17th July  2024
               <br />
-              3:30 PM
+              1:30 PM
             </span>
           </div>
 
@@ -37,9 +37,9 @@ export default function AGMPage() {
           <div className="inline-flex text-white items-center">
             <MapPin size={36} />
             <span className="ml-2 uppercase text-[19px] leading-none">
-              A504
+              Main
               <br />
-              Main Building
+              Auditorium
             </span>
           </div>
         </div>

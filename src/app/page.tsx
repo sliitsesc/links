@@ -13,13 +13,11 @@ export default function Home() {
           className=""
         />
         <h1 className="text-2xl font-normal text-black mt-4">
-          Official Website of SESC SLIIT
-          <br />
-          Coming Soon
+          Agenda is subject to change!
         </h1>
         <Link href={"/agm"}>
           <button className="p-4 px-6 mt-6 hover:bg-white hover:text-black rounded-xl font-semibold border-[2px] border-orange-500 bg-orange-500 transition-colors duration-200 text-white hover:border-orange-400">
-            View Agenda for AGM 2024
+            View Agenda for SE Orientation 2024
           </button>
         </Link>
       </div>

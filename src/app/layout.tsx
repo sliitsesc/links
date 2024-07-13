@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Agenda - AGM 2024 | SLIIT SESC",
-  description: "The official agenda for the AGM 2024 of SLIIT SESC",
+  title: "Agenda - SE Orientation 2024 | SLIIT SESC",
+  description: "The official agenda for the SE Orientation 2024 of SLIIT SESC",
 };
 
 export default function RootLayout({
