@@ -17,7 +17,7 @@ export const AgendaData = [
     title: "Speech by Prof. Nuwan Kodagoda",
     time: "1:50 PM",
     imageURL: "/faces/nuwan.jpg",
-    name: "Ms. Hansi De Silva",
+    name: "Prof. Nuwan Kodagoda",
     position: "Lecturer, SLIIT",
   },
   {
