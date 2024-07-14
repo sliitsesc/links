@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Agenda - SE Orientation 2024 | SLIIT SESC",
-  description: "The official agenda for the SE Orientation 2024 of SLIIT SESC",
+  title: "Agenda - SE Orientation 2024 July | SLIIT SESC",
+  description: "The agenda for the SE Orientation of SLIIT students, 2024 June",
 };
 
 export default function RootLayout({
@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} bg-gradient-to-b bg-no-repeat from-[#0e2451] via-[#0A1D42] to-[#061535]`}>
+        className={`${inter.className} bg-black-background bg-grids-pattern`}>
         {children}
       </body>
     </html>
