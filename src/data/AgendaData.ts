@@ -39,7 +39,7 @@ export const AgendaData = [
     time: "3:00 PM",
     imageURL: "/faces/danushka.jpg",
     name: "Mr. Danushka Ranasinghe",
-    position: "President, SESC 2024/25",
+    position: "Senior IFS Technical Consultant",
   },
   {
     title: "Speech by Perituza Lanka",
