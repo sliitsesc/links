@@ -56,18 +56,15 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col gap-y-4">
-          {AgendaData.map((event, index) => ({
-            ...event,
-            key: index,
-          })).map((event) => (
+          {AgendaData.map((event, index) => (
             <EventCard
-              key={event.key}
+              key={index}
               title={event.title}
-              //   description={event?.title}
               time={event.time}
               imageURL={event.imageURL}
               name={event.name}
               position={event.position}
+              index={index}
             />
           ))}
         </div>

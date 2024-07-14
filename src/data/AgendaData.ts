@@ -2,21 +2,21 @@ export const AgendaData = [
   {
     title: "Welcome speech by Ms. Thilini Jayalath",
     time: "1:30 PM",
-    imageURL: "/faces/msthilini.jpeg",
+    imageURL: "/faces/msthilini.png",
     name: "Ms. Thilini Jayalath",
     position: "Lecturer, SLIIT",
   },
   {
     title: "Speech by Dr. Kalpani Manathunga",
     time: "1:35 PM",
-    imageURL: "/faces/kalpani.jpg",
+    imageURL: "/faces/kalpani.png",
     name: "Dr. Kalpani Manathunga",
     position: "HOD, SE Department SLIIT",
   },
   {
     title: "Speech by Prof. Nuwan Kodagoda",
     time: "1:50 PM",
-    imageURL: "/faces/nuwan.jpg",
+    imageURL: "/faces/nuwan.png",
     name: "Prof. Nuwan Kodagoda",
     position: "Pro Vice Chancellor, SLIIT",
   },
@@ -37,7 +37,7 @@ export const AgendaData = [
   {
     title: "Speech by Mr. Danushka Ranasinghe",
     time: "3:00 PM",
-    imageURL: "/faces/danushka.jpg",
+    imageURL: "/faces/danushka.png",
     name: "Mr. Danushka Ranasinghe",
     position: "Senior IFS Technical Consultant",
   },
@@ -48,7 +48,7 @@ export const AgendaData = [
   {
     title: "Speech by Mr. Pasindu Dinal",
     time: "4:00 PM",
-    imageURL: "/faces/dinal.jpg",
+    imageURL: "/faces/dinal.png",
     name: "Pasindu Dinal",
     position: "President, SESC 2024/25",
   },
