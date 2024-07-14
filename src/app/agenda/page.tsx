@@ -2,12 +2,7 @@ import EventCard from "@/components/EventCard";
 import { CalendarFold, MapPin, PinIcon } from "lucide-react";
 import { AgendaData } from "@/data/AgendaData";
 import Image from "next/image";
-import { Bebas_Neue } from "next/font/google";
-
-const bebasNeue = Bebas_Neue({
-  weight: ["400"],
-  subsets: ["latin"],
-});
+import { Chakra_Petch, Plus_Jakarta_Sans } from "next/font/google";
 
 export default function AGMPage() {
   return (
@@ -26,7 +21,7 @@ export default function AGMPage() {
           <div className="inline-flex text-white items-center">
             <CalendarFold size={36} />
             <span className="ml-2 uppercase text-[19px] leading-none">
-              17th July  2024
+              17th July 2024
               <br />
               1:30 PM
             </span>
