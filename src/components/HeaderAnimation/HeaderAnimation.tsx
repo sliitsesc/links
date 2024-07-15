@@ -42,6 +42,6 @@ export default function HeaderAnimation() {
   }, []);
 
   return (
-    <div className="header finisher-header absolute w-screen h-full"></div>
+    <div className="header finisher-header absolute w-full h-full overflow-hidden"></div>
   );
 }

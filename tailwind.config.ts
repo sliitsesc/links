@@ -15,6 +15,12 @@ const config: Config = {
         black: {
           background: "#131313",
         },
+        purple: {
+          100: "#7D61F2",
+        },
+        green: {
+          100: "#DBFD51",
+        },
       },
     },
   },
