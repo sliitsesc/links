@@ -18,7 +18,7 @@ const chakra = Chakra_Petch({
 
 export default function Home() {
   return (
-    <main className="relative">
+    <main className="relative bg-[#13131391]">
       <HeaderAnimation />
 
       <div className="max-w-[500px] mx-auto pb-20 px-4">

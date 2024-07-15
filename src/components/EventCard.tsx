@@ -27,10 +27,10 @@ export default function EventCard({
           <h2 className="text-xl font-medium">{title}</h2>
           <p className="text-sm">{description}</p>
         </div>
-        {imageURL && (
-          <div className="flex items-center">
+        <div className="flex items-center">
+          {imageURL && (
             <div
-              className={`overflow-x-clip relative w-[50px] h-[30px] ${
+              className={`overflow-x-clip relative min-w-[50px] w-[50px] h-[30px] ${
                 index % 2 === 1 ? "bg-purple-100" : "bg-green-100"
               }`}>
               <Image
@@ -41,12 +41,12 @@ export default function EventCard({
                 className="object-cover absolute -top-[26px] scale-125 grayscale object-top min-w-[50px] w-[50px] h-[50px]"
               />
             </div>
-            <div className="ml-4 flex flex-col">
-              <p className="font-bold">{name}</p>
-              <p>{position}</p>
-            </div>
+          )}
+          <div className="ml-4 flex flex-col">
+            <p className="font-bold">{name}</p>
+            <p>{position}</p>
           </div>
-        )}
+        </div>
       </div>
     </div>
   );

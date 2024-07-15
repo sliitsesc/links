@@ -5,3 +5,7 @@
 #finisher-canvas {
   background-color: transparent !important;
 }
+
+.green-glow {
+  filter: drop-shadow(0 0 12px #dbfd51ba);
+}
