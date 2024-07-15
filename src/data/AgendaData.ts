@@ -31,6 +31,7 @@ export const AgendaData = [
   {
     title: "Speech by Mr. Saman Gunawardena",
     time: "2:30 PM",
+    imageURL: "/faces/saman.png",
     name: "Mr. Saman Gunawardena",
     position: "Senior Manager/ Industrial Liaison and Placement",
   },
