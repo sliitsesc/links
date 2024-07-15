@@ -3,8 +3,8 @@ import "./globals.css";
 import { Chakra_Petch } from "next/font/google";
 
 export const metadata: Metadata = {
-  title: "Agenda - SE Orientation 2024 July | SLIIT SESC",
-  description: "The agenda for the SE Orientation of SLIIT students, 2024 June",
+  title: "SE Orientation 2024 July | SLIIT SESC",
+  description: "The SE Orientation of SLIIT SE students, 2024 July",
 };
 
 const chakra = Chakra_Petch({

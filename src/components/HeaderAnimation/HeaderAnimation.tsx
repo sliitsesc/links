@@ -9,7 +9,7 @@ export default function HeaderAnimation() {
     script.async = true;
     script.onload = () => {
       new FinisherHeader({
-        count: 70,
+        count: 50,
         size: {
           min: 1,
           max: 23,
@@ -42,6 +42,6 @@ export default function HeaderAnimation() {
   }, []);
 
   return (
-    <div className="header finisher-header absolute w-full h-full overflow-hidden"></div>
+    <div className="header finisher-header absolute w-full h-full overflow-hidden -z-10"></div>
   );
 }
