@@ -4,7 +4,7 @@ export const AgendaData = [
     time: "1:30 PM",
     imageURL: "/faces/msthilini.jpeg",
     name: "Ms. Thilini Jayalath",
-    position: "Lecturer, SLIIT",
+    position: "Senior Lecturer, SLIIT",
   },
   {
     title: "Speech by Dr. Kalpani Manathunga",
@@ -30,20 +30,20 @@ export const AgendaData = [
   },
   {
     title: "Speech by Mr. Saman Gunawardena",
-    time: "2:30 PM",
+    time: "2:40 PM",
     name: "Mr. Saman Gunawardena",
     position: "Senior Manager/ Industrial Liaison and Placement",
   },
   {
     title: "Speech by Mr. Danushka Ranasinghe",
-    time: "3:00 PM",
+    time: "3:10 PM",
     imageURL: "/faces/danushka.jpg",
     name: "Mr. Danushka Ranasinghe",
     position: "Senior IFS Technical Consultant",
   },
   {
     title: "Speech by Perituza Lanka",
-    time: "3:30 PM",
+    time: "3:40 PM",
   },
   {
     title: "Speech by Mr. Pasindu Dinal",
