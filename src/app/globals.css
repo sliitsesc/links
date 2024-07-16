@@ -9,3 +9,7 @@
 .green-glow {
   filter: drop-shadow(0 0 12px #dbfd51ba);
 }
+
+.white-glow {
+  filter: drop-shadow(0 0 12px #FFFFFF);
+}
