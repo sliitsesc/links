@@ -71,12 +71,12 @@ export default function LinksPage() {
             url={"/"}
             featured
           />
-          <LinkCard
+          {/* <LinkCard
             title="Vote for SE T-shirt"
             icon={<Vote size={28} />}
             url={"https://khrl9cjk5u6.typeform.com/to/BYA3bWpC"}
             featured
-          />
+          /> */}
           <LinkCard
             title="Hacknest"
             icon={<Instagram size={28} />}
