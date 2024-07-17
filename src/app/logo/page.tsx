@@ -18,17 +18,20 @@ const chakra = Chakra_Petch({
 
 export default function Home() {
   return (
-    <main className="relative bg-[#13131391]">
+    <main className="relative bg-[#13131317]">
       <HeaderAnimation />
-      <div className="flex w-full h-screen justify-center items-center">
+      <div className="flex flex-col w-full h-screen justify-center items-center white-glow">
         <Image
-            src={"/logo/sesc-logo.svg"}
-            width={500}
-            height={500}
-            alt=""
-            className="mr-4  animate-pulse"
+          src={"/logo/sesc-logo.svg"}
+          width={400}
+          height={400}
+          alt=""
+          className=""
         />
-          <h1>Starting Soon!</h1>
+        <h1
+          className={`tracking-wide text-white white-glow animate-pulse font-semibold text-center text-[36px] mt-10`}>
+          Starting Soon!
+        </h1>
       </div>
     </main>
   );
