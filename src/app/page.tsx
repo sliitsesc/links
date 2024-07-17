@@ -77,12 +77,12 @@ export default function LinksPage() {
             url={"https://forms.gle/TENUtBhDS1oDXDR76"}
             featured
           />
-          {/* <LinkCard
+          <LinkCard
             title="Volunteer Form"
             icon={<Vote size={28} />}
-            url={"https://forms.gle/HTT1hJAQ8WjoQyv9A"} //update this
+            url={"https://forms.gle/HcB6auyjjpRAmt428"} //update this
             featured
-          /> */}
+          />
           <LinkCard
             title="Hacknest"
             icon={<Instagram size={28} />}
