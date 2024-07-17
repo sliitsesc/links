@@ -71,12 +71,12 @@ export default function LinksPage() {
             url={"/agenda"}
             featured
           />
-          {/* <LinkCard
+          <LinkCard
             title="Vote for SE T-shirt"
             icon={<Vote size={28} />}
             url={"https://forms.gle/HTT1hJAQ8WjoQyv9A"}
             featured
-          /> */}
+          />
           {/* <LinkCard
             title="Volunteer Form"
             icon={<Vote size={28} />}
