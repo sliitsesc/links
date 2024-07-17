@@ -74,7 +74,7 @@ export default function LinksPage() {
           <LinkCard
             title="Vote for SE T-shirt"
             icon={<Vote size={28} />}
-            url={"https://forms.gle/HTT1hJAQ8WjoQyv9A"}
+            url={"https://forms.gle/TENUtBhDS1oDXDR76"}
             featured
           />
           {/* <LinkCard
