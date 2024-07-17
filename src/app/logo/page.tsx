@@ -29,7 +29,7 @@ export default function Home() {
           className=""
         />
         <h1
-          className={`tracking-wide text-white white-glow animate-pulse font-semibold text-center text-[36px] mt-10`}>
+          className={`tracking-wide text-white white-glow-1 animate-pulse font-semibold text-center text-[36px] mt-10`}>
           Starting Soon!
         </h1>
       </div>
