@@ -21,8 +21,8 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Links | SESC SLIIT @ SE Orientation 2024 July",
-  description: "All agenda related to SESC SLIIT",
+  title: "Links | SLIIT SESC",
+  description: "",
 };
 
 export default function LinksPage() {
@@ -37,58 +37,11 @@ export default function LinksPage() {
             Links
           </h1>
           <div>
-            <p className="text-white font-semibold leading-0 text-[25px] uppercase">
-              SE Orientation
-            </p>
             <p className="text-white leading-0 text-[25px]">SESC - 2024/25</p>
           </div>
         </div>
 
-        <div className="mt-6 mb-6 flex flex-col text-lg text-center text-white">
-          <QuoteIcon
-            size={24}
-            className="rotate-180 -ml-1 green-glow"
-            fill="#dbfd51"
-            stroke="none"
-          />
-          <p className="text-left">
-            If you have knowledge, let others light their candles at it.
-          </p>
-          <span className="self-end italic">—Margaret Fuller</span>
-          <QuoteIcon
-            size={18}
-            className="self-end green-glow"
-            fill="#dbfd51"
-            stroke="none"
-          />
-        </div>
-
         <div className="flex flex-col gap-y-4">
-          <div className="italic text-white">Featured</div>
-          <LinkCard
-            title="Event Agenda"
-            icon={<Calendar size={28} />}
-            url={"/agenda"}
-            featured
-          />
-          <LinkCard
-            title="Vote for SE T-shirt"
-            icon={<Vote size={28} />}
-            url={"https://forms.gle/TENUtBhDS1oDXDR76"}
-            featured
-          />
-          <LinkCard
-            title="Volunteer Form"
-            icon={<Vote size={28} />}
-            url={"https://forms.gle/HcB6auyjjpRAmt428"} //update this
-            featured
-          />
-          <LinkCard
-            title="Hacknest"
-            icon={<Instagram size={28} />}
-            url={"https://instagram.com/hacknest.sesc"}
-            featured
-          />
           <div className="pt-4 italic text-white">Social Links</div>
           <LinkCard
             title="Instagram"
@@ -105,6 +58,12 @@ export default function LinksPage() {
             icon={<Linkedin size={28} />}
             url={"https://www.linkedin.com/company/sesc-sliit"}
           />
+          <LinkCard
+              title="Hacknest"
+              icon={<Instagram size={28} />}
+              url={"https://instagram.com/hacknest.sesc"}
+              featured
+          />
           {/* <div className="pt-4 italic text-white">Other</div> */}
         </div>
       </div>
@@ -113,7 +72,7 @@ export default function LinksPage() {
           <p>
             Software Engineering Student Community of SLIIT
             <br />
-            July, 2024
+            2024/25
           </p>
         </div>
       </div>
