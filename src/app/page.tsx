@@ -58,12 +58,6 @@ export default function LinksPage() {
             icon={<Linkedin size={28} />}
             url={"https://www.linkedin.com/company/sesc-sliit"}
           />
-          <LinkCard
-              title="Hacknest"
-              icon={<Instagram size={28} />}
-              url={"https://instagram.com/hacknest.sesc"}
-              featured
-          />
           {/* <div className="pt-4 italic text-white">Other</div> */}
         </div>
       </div>
