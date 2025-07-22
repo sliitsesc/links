@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Chakra_Petch } from "next/font/google";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 export const metadata: Metadata = {
   title: "SE Orientation 2024 July | SLIIT SESC",
@@ -21,6 +22,8 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${chakra.className} bg-black-background bg-grids-pattern`}>
+        <GoogleAnalytics />
+        {children}
         {children}
       </body>
     </html>
